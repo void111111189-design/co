@@ -1,0 +1,19 @@
+{
+  "session_id": "session_123",
+  "user_id": "user1",
+  "created_at": "2026-06-22T09:22:09.181217",
+  "updated_at": "2026-06-22T09:22:09.181217",
+  "messages": [
+    {
+      "id": "2026-06-22T09:22:09.181217_-6809497901350826174",
+      "session_id": "session_123",
+      "user_id": "user1",
+      "message": "Write a Python function to calculate factorial",
+      "response": "Here is the factorial function...",
+      "agent": "Writer",
+      "timestamp": "2026-06-22T09:22:09.181217",
+      "date": "2026-06-22",
+      "time": "09:22:09"
+    }
+  ]
+}
