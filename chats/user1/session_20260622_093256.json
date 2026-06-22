@@ -1,0 +1,19 @@
+{
+  "session_id": "session_20260622_093256",
+  "user_id": "user1",
+  "created_at": "2026-06-22T09:32:56.878635",
+  "updated_at": "2026-06-22T09:32:56.878635",
+  "messages": [
+    {
+      "id": "2026-06-22T09:32:56.878635_3862911961788311237",
+      "session_id": "session_20260622_093256",
+      "user_id": "user1",
+      "message": "Write a Python function to calculate factorial",
+      "response": "What it does: This function calculates the factorial of a given\nnumber. The factorial of a number is the product of all positive\nintegers less than or equal to that number.\nThe Code:\ndef calculate_factorial(n):\nif n < 0:\nraise ValueError(\"Factorial is not defined for negative numbers\")\nelif n == 0 or n == 1:\nreturn 1\nelse:\nreturn n * calculate_factorial(n-1)\ndef calculate_factorial_iterative(n):\nif n < 0:\nraise ValueError(\"Factorial is not defined for negative numbers\")\nresult = 1\nfor i in range(1, n + 1):\nresult *= i\nreturn result\nHow it works: The function calculate_factorial uses recursion to\ncalculate the factorial. It first checks if the number is less than 0,\nin which case it raises a ValueError because factorial is not defined\nfor negative numbers. If the number is 0 or 1, it returns 1 because the\nfactorial of 0 and 1 is 1. For any other number, it calls itself with\nthe argument n-1 and multiplies the result by n. The function\ncalculate_factorial_iterative uses a loop to calculate the factorial.\nIt starts with a result of 1 and then multiplies the result by each\nnumber from 1 to n.\nExample usage: You can use the function like this:\nprint(calculate_factorial(5))  # prints 120\nprint(calculate_factorial_iterative(5))  # prints 120\n\nTips: The recursive function may cause a stack overflow for large numbers, so the iterative function is generally safer to use. Also, be aware that the factorial of a large number can be very large, so you may need to use a library that supports arbitrary-precision arithmetic if you need to calculate the factorial of a large number. \ud83d\udcdd\ud83d\udcbb\n\n\u270d\ufe0f Using Code Writer agent for your task.",
+      "agent": "Writer",
+      "timestamp": "2026-06-22T09:32:56.878635",
+      "date": "2026-06-22",
+      "time": "09:32:56"
+    }
+  ]
+}
