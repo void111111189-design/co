@@ -1,0 +1,19 @@
+{
+  "session_id": "session_20260622_100912",
+  "user_id": "default_user",
+  "created_at": "2026-06-22T10:09:12.932159",
+  "updated_at": "2026-06-22T10:09:12.932159",
+  "messages": [
+    {
+      "id": "2026-06-22T10:09:12.932159_-591703674360723984",
+      "session_id": "session_20260622_100912",
+      "user_id": "default_user",
+      "message": "hi",
+      "response": "Hello! How can I assist you today? \ud83d\ude0a",
+      "agent": "General",
+      "timestamp": "2026-06-22T10:09:12.932159",
+      "date": "2026-06-22",
+      "time": "10:09:12"
+    }
+  ]
+}
