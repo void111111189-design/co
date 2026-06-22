@@ -1,0 +1,19 @@
+{
+  "session_id": "session_20260622_092814",
+  "user_id": "user1",
+  "created_at": "2026-06-22T09:28:14.388769",
+  "updated_at": "2026-06-22T09:28:14.388769",
+  "messages": [
+    {
+      "id": "2026-06-22T09:28:14.388769_3862911961788311237",
+      "session_id": "session_20260622_092814",
+      "user_id": "user1",
+      "message": "Write a Python function to calculate factorial",
+      "response": "What it does: This function calculates the factorial of a given\nnumber. The factorial of a number is the product of all positive\nintegers less than or equal to that number.\nThe Code:\ndef calculate_factorial(n):\nif n < 0:\nraise ValueError(\"Factorial is not defined for negative numbers\")\nelif n == 0 or n == 1:\nreturn 1\nelse:\nresult = 1\nfor i in range(2, n + 1):\nresult *= i\nreturn result\ndef calculate_factorial_recursive(n):\nif n < 0:\nraise ValueError(\"Factorial is not defined for negative numbers\")\nelif n == 0 or n == 1:\nreturn 1\nelse:\nreturn n * calculate_factorial_recursive(n - 1)\nHow it works:\nThe function first checks if the input number is less than 0. If it\nis, the function raises a ValueError because factorial is not defined\nfor negative numbers.\nIf the number is 0 or 1, the function returns 1 because the factorial\nof 0 and 1 is 1.\nFor numbers greater than 1, the function calculates the factorial\nusing a for loop or recursively by calling itself with decreasing\nvalues of n until it reaches 1.\nExample usage:\nTo calculate the factorial of a number, simply call the function with\nthe number as an argument. For example:\nprint(calculate_factorial(5))  # Output: 120\nprint(calculate_factorial_recursive(5))  # Output: 120\n\nTips:\nWhen using the recursive function, be aware that it can cause a stack\noverflow for large input values because each recursive call adds a\nlayer to the system's call stack. The iterative function does not have\nthis problem and is generally safer to use for large input values. \ud83d\udcdd\ud83d\udcbb\n\n\u270d\ufe0f Using Code Writer agent for your task.",
+      "agent": "Writer",
+      "timestamp": "2026-06-22T09:28:14.388769",
+      "date": "2026-06-22",
+      "time": "09:28:14"
+    }
+  ]
+}
