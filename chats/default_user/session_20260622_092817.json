@@ -1,0 +1,19 @@
+{
+  "session_id": "session_20260622_092817",
+  "user_id": "default_user",
+  "created_at": "2026-06-22T09:28:17.536287",
+  "updated_at": "2026-06-22T09:28:17.536287",
+  "messages": [
+    {
+      "id": "2026-06-22T09:28:17.536287_280270806070669982",
+      "session_id": "session_20260622_092817",
+      "user_id": "default_user",
+      "message": "test",
+      "response": "Hello and welcome \ud83c\udf1f\nI'm here to help you with any questions or concerns you might have \ud83e\udd14\nIt seems like you're just testing our conversation \ud83d\udcca\nIf you have any real questions or need assistance, feel free to ask me\nanything \ud83d\udcdd\nI'll do my best to provide you with helpful and accurate information \ud83d\udcda\nLet me know how I can assist you today \ud83c\udf1e\n\n\ud83e\uddea Using Quality Tester agent for your task.",
+      "agent": "Tester",
+      "timestamp": "2026-06-22T09:28:17.536287",
+      "date": "2026-06-22",
+      "time": "09:28:17"
+    }
+  ]
+}
